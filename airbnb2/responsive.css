@@ -1,0 +1,186 @@
+/* xl */
+@media screen and (min-width:1199px){
+  .box{
+    width:300px;
+    height:400px;
+    margin-top:100px;
+  }
+  .clear{
+    clear:right;
+  }
+  .lg-block{
+    display:none;
+  }
+  .when-lg h1{
+    display:none;
+  }
+  .when-lg-icon{
+    display:none;
+  }
+  .last-image{
+    margin-bottom:100px;
+  }
+}
+/* medium */
+@media screen and (max-width:1199px){
+  main .delete{
+    display:block;
+  }
+  header{
+    display:none;
+  }
+
+  .xl-block{
+    display:none;
+  }
+  .when-xl{
+    display:none;
+  }
+  .lg-block{
+    width:690px;
+  }
+  article .container{
+    width:600px;
+  }
+  article p{
+    width:100%;
+  }
+  .article-title h1{
+    font-weight:900;
+    font-size:35px;
+  }
+  .question{
+    width:750px;
+  }
+  .question-title{
+    width:750px;
+  }
+  .question-title h2{
+      font-size:40px;
+  }
+  .question .row h2{
+    font-size:40px;
+  }
+  .question .row h3{
+    font-size:20px;
+  }
+  .question .row p{
+    font-size:13px;
+  }
+  .question img{
+    width:370px;
+  }
+  .message1 p{
+    width:100%;
+  }
+  .message1 a{
+    display:block;
+    margin-bottom:20px;
+  }
+  .message2 p{
+    width:100%;
+  }
+}
+
+  /* sm */
+@media screen and (max-width:768px){
+  .lg-block{
+    width:100%;
+  }
+
+  .tokyo{
+    font-weight: bold;
+  }
+  .when-lg h1{
+    padding-top:65px;
+    padding-left:20px;
+    font-size:33px;
+    visibility: hidden;
+  }
+  article .container{
+    width:100%;
+  }
+  .article-title h1{
+    text-align:left;
+  }
+  .top-border{
+    margin:20px 0;
+  }
+  .question{
+    width:100%;
+  }
+  .question-title{
+    width:100%;
+  }
+  .question-title h2{
+    text-align: left;
+  }
+.question-message{
+  order:2;
+}
+  .question img{
+    order:1;
+    width:100%;
+    padding:30px 0 0 0;
+    margin:0;
+  }
+  .message1 h2{
+    font-size:40px;
+    text-align: left;
+
+  }
+  .message2{
+        padding-left:20px;
+  }
+  .message2 h2{
+    font-size:40px;
+    text-align: left;
+
+  }
+  .message3 h2{
+    font-size:40px;
+    text-align: left;
+    margin-bottom:5px;
+  }
+  .message3 h3{
+    width:100%;
+    font-size:20px;
+  }
+  .message4{
+        padding-left:20px;
+  }
+  .message4 h2{
+    text-align: left;
+    font-size:40px;
+
+  }
+  .message5{
+        padding-left:20px;
+  }
+  .message5 h2{
+    font-size:40px;
+    text-align: left;
+
+  }
+  .message6{
+    padding-left:20px;
+  }
+  .message6 li{
+    font-size:16px;
+  }
+  .message6 h2{
+    text-align: left;
+    font-size:40px;
+
+  }
+  .last-image h2{
+    font-size:40px;
+    padding:100px 0 40px 0;
+  }
+  .last-btn{
+    margin:0;
+  }
+  .link-wrapper{
+    display:none;
+  }
+}

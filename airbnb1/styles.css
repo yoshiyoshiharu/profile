@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+li{
+  list-style: none;
+}
+body {
+  margin: 0;
+  font-family: Circular,"ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic","MS Gothic","ＭＳ ゴシック","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/* header */
+
+header{
+  padding-top:15px;
+
+}
+.icons{
+  width:110px;
+  float:left;
+}
+.icons .fab{
+  font-size:35px;
+  color:rgb(255, 90, 95);
+  padding:8px 30px;
+  padding-right:3px;
+  position:relative;
+  padding-bottom:0;
+}
+.icons .fas{
+  font-size:10px;
+  color:#333;
+  padding:0;
+  position:absolute;
+  top:35px;
+  left:75px;
+}
+#sbox1{
+  font-size:18px;
+max-width:600px;
+height:50px;
+border-radius:2px;
+outline:0;
+margin-bottom:20px;
+background:white;
+padding-right:200px;
+}
+.search{
+  float:left;
+}
+.header-right{
+  float:right;
+  padding-right:30px;
+  padding-top:10px;
+}
+.header-right a{
+  color:gray;
+  font-size:16px;
+  font-weight:bold;
+  padding-right:18px;
+  float:left;
+  display:block;
+  height:50px;
+  padding:0 25px;
+}
+.header-right a:hover{
+  color:inherit;
+  border-bottom:2px solid #345;
+    text-decoration: none;
+}
+.clear{
+  clear:left;
+}
+/* top */
+.top-wrapper{
+  background-image:url(https://press.airbnb.com/wp-content/uploads/sites/4/2019/06/PJM020719Q202_Luxe_WanakaNZ_LivingRoom_0264-LightOn_R1.jpg);
+  height:600px;
+  background-size: cover;
+  background-position:center center;
+  color:white;
+}
+.top-wrapper .contents{
+  padding-top:200px;
+  padding-left:180px;
+}
+.contents h1{
+    font-size:50px;
+}
+.contents p{
+  font-size:20px;
+  padding-top:30px;
+}
+
+.btn a{
+  padding:10px 30px;
+  font-size:20px;
+  background-color: #eee;
+  color:black;
+  border-radius: 5px;
+  display:block;
+  margin-top: 20px;
+}
+.btn a:hover{
+  text-decoration: none;
+  color: gray;
+}
+.main-wrapper{
+  background-color:white;
+}
+.row{
+  text-align: center;
+}
+.main-wrapper h1{
+  text-align:center;
+  color:#484848;
+  padding :50px 0;
+}
+.main-wrapper h4{
+  color:#484848;
+  font-weight:bold;
+  font-size:18px;
+  padding:20px 0;
+}
+.main-wrapper p{
+  font-size:15px;
+}
+.fa-envelope,.fa-stopwatch,.fa-globe{
+  color:#007a87;
+  font-size:40px;
+}
+
+/* message */
+.message-wrapper{
+  color:white;
+  background-color: #007a87;
+}
+.message-wrapper img{
+  padding:50px 0;
+}
+.message-wrapper h1{
+  font-weight:bold;
+
+}
+.message-wrapper p{
+  font-weight:500;
+  font-size:18px;
+  padding-bottom:50px
+}
+.register{
+  background-color: #ff5a5f;
+  width:220px;
+  margin:0 auto;
+border-radius: 5px;
+}
+.register a{
+  color:white;
+  padding:7px 15px;
+  display:block;
+
+}
+.register a:hover {
+  color:white;
+  text-decoration: none;
+  background-color: #ff7e82;
+  border-radius: 5px;
+}
+.mechanism{
+  padding-top:15px;
+  padding-bottom:50px;
+  }
+
+.mechanism a{
+  color :white;
+    opacity:0.8;
+}
+.mechanism a:hover{
+opacity:1;
+  color:white;
+  text-decoration: none;
+}
+.link-wrapper .container{
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.link-wrapper li{
+  text-align: left;
+}
+.link-wrapper p{
+  font-size:14px;
+  text-align: left;
+  font-weight: bold;
+}
+.link-wrapper a{
+  font-weight: bold;
+  color:gray;
+  font-size:14px;
+}
+.link-wrapper a:hover{
+  color:gray;
+}
+
+.link-icons{
+  text-align: left;
+  padding-bottom:13px;
+}
+.link-icons .fab{
+  font-size:18px;
+  padding-right:5px;
+}
+footer .container{
+  border-top:1px solid #eee;
+  padding-bottom:40px;
+}
+footer .fab{
+  font-size:23px;
+  float:left;
+  color:gray;
+  padding-top: 10px;
+  padding-right:10px;
+}
+.footer-message a{
+  font-weight: bold;
+  font-size:12px;
+  color:gray;
+}
+.footer-message{
+  font-weight: bold;
+  font-size:12px;
+  color:gray;
+  padding-left:30px;
+}
+footer a:hover{
+  color:gray;
+}
+.footer-icon{
+  padding-top:30px;
+  text-align: left;
+}
+.footer-btns{
+  padding-top:40px;
+  float: right;
+  display:flex;
+  justify-content:flex-end;
+}
+.footer-btn{
+  display:inline-block;
+  border:1px solid #eee;
+  width:75px;
+  height:32px;
+
+}
+.ja{
+  margin-right: 10px;
+}
+.footer-btn a{
+  font-weight:bold;
+  font-size:13px;
+  line-height:32px;
+  color:gray;
+  display:block;
+}
+
+.footer-btn a:hover{
+  text-decoration: none;
+}
+.footer-btn:hover{
+  background-color: #eee;
+}
+h1{
+  color:red;
+}

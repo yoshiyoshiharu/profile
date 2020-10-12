@@ -1,0 +1,28 @@
+@media all and (max-width:1150px){
+  .header-right{
+    display:none;
+  }
+}
+@media all and (max-width:768px){
+  .register{
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+  #sbox1{
+    max-width:200px
+  }
+  .contents{
+    padding-top:0px;
+    padding-left:0px;
+  }
+  .message-wrapper .container{
+    width:100%;
+  }
+  .link-wrapper{
+    display:none;
+  }
+  .top-wrapper .contents{
+    padding-left:10px;
+  }
+}
