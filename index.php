@@ -120,7 +120,7 @@
           </div>
           <div class="col-12 col-md-6 work">
             <h3 class="work-title">サイトの模写コーディング1</h3 class="work-title">
-            <a href="/profile/airbnb1"><img src="image/airbnb1.png"></a>
+            <a href="/profile/sample1"><img src="image/sample.png"></a>
             <div class="pas">
               <p>ユーザ名:yoshiharu</p>
               <p>パスワード:yoshiharu</p>
@@ -128,7 +128,7 @@
           </div>
           <div class="col-12 col-md-6 work">
             <h3 class="work-title">サイトの模写コーディング2</h3 class="work-title">
-            <a href="/profile/airbnb2"><img src="image/airbnb2.png"></a>
+            <a href="/profile/sample2"><img src="image/sample1.png"></a>
             <div class="pas">
               <p>ユーザ名:yoshiharu</p>
               <p>パスワード:yoshiharu</p>
